@@ -22,7 +22,7 @@ function Podcast() {
               <PlayCircleOutlineIcon fontSize='large' />
             </div>
             <p className=' text-white font-semibold text-center pt-4'>
-              {pod.title}
+              { pod.title }
             </p>
           </div>
         ))}
