@@ -3,19 +3,6 @@ import { data } from '../data/podcastData';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 
 function Podcast() {
-  // const [podcast, setPodcast] = useState('');
-
-  // useEffect(() => {
-  //   fetch(
-  //     'https://allfeeds.ai/api/find_podcasts?key=ztsu956ssarszv4nkwsf&keyword=music'
-  //   )
-  //     .then((response) => response.json())
-  //     .then((response) => setPodcast(response.results))
-  //     .catch((err) => console.error(err));
-  // }, []);
-
-  // console.log(podcast);
-
   return (
     <div className=' w-[80%] bg-gray-600 m-auto p-4 rounded-lg overflow-auto '>
       <h1 className=' text-[2.5rem] py-4 text-white text-center font-semibold '>
