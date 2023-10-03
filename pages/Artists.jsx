@@ -22,7 +22,7 @@ const Artists = (song) => {
       >
 
         <div className='lg:col-span-4 col-span-full swatch_bg-brown p-4 lg:p-7 rounded-md flex flex-col gap-4 w-full'>
-          {isFetching ? (
+          {isFetching?(
             <Loader />
           ) : (
             <>
