@@ -10,7 +10,6 @@ const Artists = (song) => {
 
   const { activeMenu, setActiveMenu } = useStateContext();
   const { topTrending, isFetching } = useStateContext();
-  console.log(topTrending);
   if (typeof window !== "undefined") {
     console.log(`/Artists/ ${song}.artists[0].adamid`, window.location.pathname)
   }
