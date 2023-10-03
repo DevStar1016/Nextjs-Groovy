@@ -12,7 +12,7 @@ const Artists = (song) => {
   const { topTrending, isFetching } = useStateContext();
   console.log(topTrending);
   if (typeof window !== "undefined") {
-    console.log(`/Artists/${song}.artists[0].adamid`, window.location.pathname)
+    console.log(`/Artists/ ${song}.artists[0].adamid`, window.location.pathname)
   }
 
   return (
